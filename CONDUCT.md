@@ -1,43 +1,48 @@
 # Code of Conduct
 
-## Our Pledge
+## Introduction
+We aim to create a welcoming, respectful, and inclusive environment for everyone participating in our project. Everyone participating in DSCI 524 group 31 activities is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces managed by DSCI 524 group 31 including, but not limited to, group meetings, slack communication, and online forums such as GitHub.
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+The group members are responsible for enforcing this Code of Conduct. All reports will be reviewed by the members and will be kept confidential.
 
-## Our Standards
+## The DSCI 524 Group 31 Code of Conduct
+We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our teachers or learners or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Examples of behavior that contributes to creating a positive environment include:
+Everyone participating in DSCI 524 group 31 activities is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces managed by DSCI 524 group 31 including, but not limited to, group meetings, slack communication, and online forums such as GitHub. 
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+### Expected Behavior
 
-Examples of unacceptable behavior by participants include:
+All participants in our events and communications are expected to show respect and courtesy to others. All interactions should be professional regardless of platform: either online or in-person. In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all DSCI 524 group 31 projects and platforms:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+- Use welcoming and inclusive language
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show courtesy and respect towards other community members
 
-## Our Responsibilities
+### Unacceptable Behavior
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Examples of unacceptable behavior by participants at any DSCI 524 group 31 event/platform include:
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+- written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
+- causing someone to fear for their safety, such as through stalking, following, or intimidation
+- violent threats or language directed against another person
+- the display of sexual or violent images
+- unwelcome sexual attention
+- nonconsensual or unwelcome physical contact
+- sustained disruption of talks, events or communications
+- insults or put downs
+- sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
+- excessive swearing
+- incitement to violence, suicide, or self-harm
+- continuing to initiate interaction (including photography or recording) with someone after being asked to stop publication of private communication without consent
 
-## Scope
+### Consequences of Unacceptable Behavior
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+Participants who are asked to stop any inappropriate behavior are expected to comply immediately. This applies to any DSCI 524 group 31 events and platforms, either online or in-person. If a participant engages in behavior that violates this code of conduct, the other group member may warn the offender and or engage the DSCI 524 Instructor to investigate the Code of Conduct violation and impose appropriate sanctions.
 
-## Enforcement
+### Incident Reporting Guidelines
+If someone violates the Code of Conduct during a event or in an online space outside of organised events, we ask that you report it to the Instructor(s). The current instructor(s) of DSCI 524 is Daniel Chen. 
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant homepage](http://contributor-covenant.org/version/1/4), version 1.4.
+## Attribution 
+- Derived from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
