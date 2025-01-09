@@ -13,6 +13,7 @@ Catherine Meng, Jessie Zhang, Zheng He
 -   **`missing_value_summary`**\
     This function is to provide a summary of missing values in the dataset.
 -   **`get_summary_statistics`**
+    Generate summary statistics for specified columns or all columns if none are provided.
 
 ## Installation
 
