@@ -8,11 +8,11 @@ Catherine Meng, Jessie Zhang, Zheng He
 
 ## Functions
 
--   **`check_csv`**\
+- **`check_csv`**  
     Check if the given file is a CSV file by its extension.
--   **`missing_value_summary`**\
+- **`missing_value_summary`**  
     This function is to provide a summary of missing values in the dataset.
--   **`get_summary_statistics`**
+- **`get_summary_statistics`**  
     Generate summary statistics for specified columns or all columns if none are provided.
 
 ## Installation
