@@ -8,3 +8,4 @@ def check_csv(file_path):
     Returns:
     bool: True if the file is a CSV file, False otherwise.
     """
+    pass

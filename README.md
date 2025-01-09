@@ -5,6 +5,12 @@ A python package to support exploratory data analysis!
 ## Contributors
 Catherine Meng, Jessie Zhang, Zheng He
 
+## Functions
+- **`check_csv`**  
+    Check if the given file is a CSV file by its extension.
+- **`missing_value_summary`**   
+- **`get_summary_statistics`**   
+
 ## Installation
 
 ```bash
@@ -13,7 +19,6 @@ $ pip install pyeda
 
 ## Usage
 
-- TODO
 
 ## Contributing
 
