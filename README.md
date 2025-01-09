@@ -3,22 +3,24 @@
 A python package to support exploratory data analysis!
 
 ## Contributors
+
 Catherine Meng, Jessie Zhang, Zheng He
 
 ## Functions
-- **`check_csv`**  
+
+-   **`check_csv`**\
     Check if the given file is a CSV file by its extension.
-- **`missing_value_summary`**   
-- **`get_summary_statistics`**   
+-   **`missing_value_summary`**\
+    This function is to provide a summary of missing values in the dataset.
+-   **`get_summary_statistics`**
 
 ## Installation
 
-```bash
+``` bash
 $ pip install pyeda
 ```
 
 ## Usage
-
 
 ## Contributing
 
