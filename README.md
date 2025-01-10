@@ -15,6 +15,9 @@ Catherine Meng, Jessie Zhang, Zheng He
 - **`get_summary_statistics`**  
     Generate summary statistics for specified columns or all columns if none are provided.
 
+## Contributing to the Python Ecosystem
+The `pyeda` package complements the Python ecosystem by providing simple and efficient tools for users to implement quick EDA in the first step of their analysis. While there are some other similar Python packages such as [Sweetviz](https://pypi.org/project/sweetviz/) (in-depth EDA with a focus on visualization) and [perform-eda](https://pypi.org/project/perform-eda/) (providing comprehensive EDA analysis), these tools can be too heavyweight for quick analysis. Instead, our `pyeda` package aims for simplicity and efficiency, enabling users to quickly complete the most basic and important steps, including validating dataset formats, checking for missing values, and generating statistical summaries for columns of interest. It is a lightweight alternative for small-scale tasks or the initial understanding of the dataset for in_depth research. Users can also combine `pyeda` with other visualization packages for deeper insights.
+
 ## Installation
 
 ``` bash
