@@ -1,6 +1,6 @@
 # pyeda
 
-A python package to support exploratory data analysis!
+This python package creates an exploratory data analysis utility designed to streamline the initial stages of data exploration and statistic overview. The three core functions are file validation, handling missing values, and generating summary statistics. pyead provided to users a practical toolkit for data preprocessing and exploration, enabling users to work more effectively with csv datasets in various projects.
 
 ## Contributors
 
