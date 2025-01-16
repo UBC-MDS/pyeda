@@ -1,3 +1,5 @@
+import pandas as pd
+
 def get_summary_statistics(df, col = None):
     """
     Generate summary statistics for specified columns or all columns if none are provided.
@@ -18,4 +20,34 @@ def get_summary_statistics(df, col = None):
     pd.DataFrame
         A DataFrame with summary statistics for the specified columns.
     """
-    pass
+    if col is None:
+        col = df.columns.tolist()
+
+    summary_stats = {}
+
+    for column in col:
+        if column not in df.columns:
+            raise KeyError(f"Column '{column}' does not exist in the dataframe.")
+
+        if pd.api.types.is_numeric_dtype(df[column]):
+            summary_stats[column] = {
+                "mean": df[column].mean(),
+                "min": df[column].min(),
+                "max": df[column].max(),
+                "std": df[column].std(),
+                "median": df[column].median(),
+                "mode": df[column].mode().iloc[0] if not df[column].mode().empty else None,
+                "range": df[column].max() - df[column].min(),
+            }
+        
+        else:
+            summary_stats[column] = {
+                "unique_values": df[column].unique(),
+                "num_unique_values": df[column].nunique(),
+                "most_frequent_value": df[column].value_counts().idxmax() if not df[column].value_counts().empty else None,
+                "frequency_of_most_frequent_value": df[column].value_counts().max() if not df[column].value_counts().empty else None,
+            }
+
+    summary_df = pd.DataFrame(summary_stats)
+
+    return summary_df
