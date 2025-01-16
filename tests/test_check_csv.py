@@ -1,5 +1,4 @@
 import pytest
-import pandas as pd
 import os
 from pyeda.check_csv import check_csv
 
