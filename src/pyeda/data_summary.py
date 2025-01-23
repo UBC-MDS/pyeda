@@ -19,6 +19,11 @@ def get_summary_statistics(df, col = None):
     ----------
     pd.DataFrame
         A DataFrame with summary statistics for the specified columns, including mean, min, max, median, mode, and range for numeric columns, as well as number of unique values, the most frequent value, and its corresponding frequency) for non-numeric columns.
+    
+    Examples
+    --------
+    >>> from pyeda.data_summary import get_summary_statistics
+    >>> get_summary_statistics(df)
     """
     if col is None:
         col = df.columns.tolist()
