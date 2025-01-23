@@ -26,6 +26,22 @@ $ pip install pyeda
 
 ## Usage
 
+`pyeda` can be used to verify the format of data files and perform basic exploratory data analysis as follows:
+```python
+from pyeda.check_csv import check_csv
+from pyeda.pymissing_values_summary import missing_values_summary
+from pyeda.data_summary import get_summary_statistics
+
+# Check if the given data file is in csv format
+data_file_path = "data.csv"  # path to your data file
+if not check_csv(data_file_path):
+    raise TypeError("The given file is not in CSV format. Please check your data file.")
+
+# Check if the data file has any missing values
+
+# Get data summary
+```
+
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
