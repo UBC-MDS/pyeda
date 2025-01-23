@@ -15,7 +15,7 @@ def missing_values_summary(df):
 
     Examples
     --------
-    >>> missing_values_series(df)
+    >>> missing_values_summary(df)
     """
     # Calculate the count of missing values for each column
     missing_count = df.isnull().sum()
@@ -28,5 +28,5 @@ def missing_values_summary(df):
                       missing_percentage[missing_count > 0].round(2).astype(str) + "%)"
 
     missing_summary.name = "Missing Count (Percentage)"
-    return missing_summary.sort_values(ascending=False)
+    return missing_summary.sort_values(ascending=False) 
 
