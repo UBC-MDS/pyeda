@@ -1,5 +1,4 @@
 from pyeda.pymissing_values_summary import missing_values_summary
-
 import pytest
 import pandas as pd
 
@@ -16,7 +15,6 @@ def df():
     return pd.DataFrame(data)
 
 
-
 def test_missing_values_summary(df):
     """
     Test for the missing_values_summary function.
@@ -24,15 +22,14 @@ def test_missing_values_summary(df):
     result = missing_values_summary(df)
 
     # Expected results
-    expected_columns = ['Missing Count', 'Missing Percentage']
     expected_index = ['B', 'A']  # Columns with missing values in descending order of missing count
+    expected_values = ['2 (50.0%)', '1 (25.0%)']  # Expected values in the Series
 
-    # Check if the resulting DataFrame has the correct structure
-    assert list(result.columns) == expected_columns
-    assert list(result.index) == expected_index
+    # Check if the result is a Series
+    assert isinstance(result, pd.Series), "Result should be a Series."
 
-    # Check the specific values
-    assert result.loc['B', 'Missing Count'] == 2
-    assert result.loc['B', 'Missing Percentage'] == 50.0
-    assert result.loc['A', 'Missing Count'] == 1
-    assert result.loc['A', 'Missing Percentage'] == 25.0
+    # Check if the resulting Series has the correct index
+    assert list(result.index) == expected_index, "Index does not match the expected order."
+
+    # Check the specific values in the Series
+    assert list(result.values) == expected_values, "Values in the Series do not match the expected output."
