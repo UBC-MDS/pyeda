@@ -26,7 +26,7 @@ $ pip install pyeda
 
 ## Usage
 
-`pyeda` can be used to verify the format of data files and perform basic exploratory data analysis as follows
+`pyeda` can be used to verify the format of data files and perform basic exploratory data analysis as follows:
 ```python
 from pyeda.check_csv import check_csv
 from pyeda.pymissing_values_summary import missing_values_summary
