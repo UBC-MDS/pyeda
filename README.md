@@ -45,8 +45,9 @@ print("Missing Values Summary:")
 print(missing_summary)
 
 
-# Get data summary
-```
+# Get the data summary for either the specified columns or all columns of our dataset
+get_summary_statistics(df)
+get_summary_statistics(df, col=["numeric", "categorical"])   
 
 ## Contributing
 
