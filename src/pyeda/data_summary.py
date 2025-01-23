@@ -4,8 +4,8 @@ def get_summary_statistics(df, col = None):
     """
     Generate summary statistics for specified columns or all columns if none are provided.
 
-    This function will return the important statistics (e.g. mean, min, std) for numeric columns, as well as
-    some key metrics (e.g. count, unique) for non-numeric columns.
+    This function will return the important statistics (including mean, min, max, median, mode, and range) for numeric columns, as well as
+    key metrics (including number of unique values, the most frequent value, and its corresponding frequency) for non-numeric columns.
     
     Parameters
     ----------
@@ -18,7 +18,7 @@ def get_summary_statistics(df, col = None):
     Returns
     ----------
     pd.DataFrame
-        A DataFrame with summary statistics for the specified columns.
+        A DataFrame with summary statistics for the specified columns, including mean, min, max, median, mode, and range for numeric columns, as well as number of unique values, the most frequent value, and its corresponding frequency) for non-numeric columns.
     """
     if col is None:
         col = df.columns.tolist()
@@ -34,7 +34,6 @@ def get_summary_statistics(df, col = None):
                 "mean": df[column].mean(),
                 "min": df[column].min(),
                 "max": df[column].max(),
-                "std": df[column].std(),
                 "median": df[column].median(),
                 "mode": df[column].mode().iloc[0] if not df[column].mode().empty else None,
                 "range": df[column].max() - df[column].min(),
@@ -42,7 +41,6 @@ def get_summary_statistics(df, col = None):
         
         else:
             summary_stats[column] = {
-                "unique_values": df[column].unique(),
                 "num_unique_values": df[column].nunique(),
                 "most_frequent_value": df[column].value_counts().idxmax() if not df[column].value_counts().empty else None,
                 "frequency_of_most_frequent_value": df[column].value_counts().max() if not df[column].value_counts().empty else None,

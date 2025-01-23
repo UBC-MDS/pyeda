@@ -17,9 +17,8 @@ def test_for_all_columns(sample_df):
 
     assert isinstance(result, pd.DataFrame)
     assert "mean" in result.index
-    assert "std" in result.index
     assert "median" in result.index
-    assert "unique_values" in result.index
+    assert "num_unique_values" in result.index
     assert "most_frequent_value" in result.index
     assert result.loc["mean", "numeric"] == 3
     assert result.loc["most_frequent_value", "categorical"] == "a"
