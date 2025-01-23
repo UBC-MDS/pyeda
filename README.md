@@ -31,21 +31,25 @@ $ pip install pyeda
 from pyeda.check_csv import check_csv
 from pyeda.pymissing_values_summary import missing_values_summary
 from pyeda.data_summary import get_summary_statistics
-
-# Check if the given data file is in csv format
+```
+#### Check if the given data file is in csv format
+```python
 data_file_path = "docs/sample_data.csv"  # path to your data file
 if not check_csv(data_file_path):
     raise TypeError("The given file is not in CSV format. Please check your data file.")
-
-# Check if the data file has any missing values
+```
+#### Check if the data file has any missing values
+```python
 df = pd.read_csv(data_file_path)
 
 missing_summary = missing_values_summary(df)
 print("Missing Values Summary:")
 print(missing_summary)
-
-
-# Get data summary
+```
+#### Get the data summary for either all columns or the specified columns of our dataset
+```python
+get_summary_statistics(df)
+get_summary_statistics(df, col=["numeric", "categorical"])   
 ```
 
 ## Contributing
