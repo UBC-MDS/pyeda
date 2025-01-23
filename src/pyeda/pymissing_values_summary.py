@@ -15,6 +15,7 @@ def missing_values_summary(df):
 
     Examples
     --------
+    >>> from pyeda.pymissing_value import missing_values_summary
     >>> missing_values_summary(df)
     """
     # Calculate the count of missing values for each column
