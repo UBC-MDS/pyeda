@@ -20,6 +20,7 @@ def check_csv(file_path):
     """
     # Check if file extension is .csv
     if not file_path.endswith(".csv"):
+        print("The file name does not end with '.csv'.")
         return False
 
     # Try to read the file using pandas (this will raise an error if it's not a CSV file)
@@ -27,4 +28,6 @@ def check_csv(file_path):
         pd.read_csv(file_path)
         return True
     except Exception:
+        print("There is an error when try to read the data file using pandas:")
+        print(e)
         return False
