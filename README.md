@@ -1,4 +1,8 @@
+[![ci-cd](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml)
 [![Documentation Status](https://readthedocs.org/projects/pyeda31/badge/?version=latest)](https://pyeda31.readthedocs.io/en/latest/?badge=latest)
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
+
 
 # pyeda
 
