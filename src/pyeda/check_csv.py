@@ -27,7 +27,7 @@ def check_csv(file_path):
     try:
         pd.read_csv(file_path)
         return True
-    except Exception:
+    except Exception as e:
         print("There is an error when try to read the data file using pandas:")
         print(e)
         return False
