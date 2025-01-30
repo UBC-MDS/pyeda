@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/pyeda31/badge/?version=latest)](https://pyeda31.readthedocs.io/en/latest/?badge=latest)
 
-# pyeda
+# pyeda31
 
 This python package creates an exploratory data analysis utility designed to streamline the initial stages of data exploration and statistic overview. The three core functions are file validation, handling missing values, and generating summary statistics. pyead provided to users a practical toolkit for data preprocessing and exploration, enabling users to work more effectively with csv datasets in various projects.
 
