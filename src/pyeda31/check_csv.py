@@ -15,7 +15,7 @@ def check_csv(file_path):
 
     Examples
     --------
-    >>> from pyeda.check_csv import check_csv
+    >>> from pyeda31.check_csv import check_csv
     >>> check_csv("../data/raw/data.csv")
     """
     # Check if file extension is .csv

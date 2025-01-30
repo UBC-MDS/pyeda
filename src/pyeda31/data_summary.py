@@ -22,7 +22,7 @@ def get_summary_statistics(df, col = None):
     
     Examples
     --------
-    >>> from pyeda.data_summary import get_summary_statistics
+    >>> from pyeda31.data_summary import get_summary_statistics
     >>> get_summary_statistics(df)
     """
     if col is None:
