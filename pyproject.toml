@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyeda"
+name = "pyeda31"
 version = "0.1.0"
 description = "A python package to support exploratory data analysis!"
 authors = ["Catherine Meng, Jessie Zhang, Zheng He"]

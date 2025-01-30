@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from pyeda.data_summary import get_summary_statistics
+from pyeda31.data_summary import get_summary_statistics
 
 @pytest.fixture
 def sample_df():

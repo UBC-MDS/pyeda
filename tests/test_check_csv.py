@@ -1,6 +1,6 @@
 import pytest
 import os
-from pyeda.check_csv import check_csv
+from pyeda31.check_csv import check_csv
 
 
 @pytest.fixture

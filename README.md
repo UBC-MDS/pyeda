@@ -23,16 +23,16 @@ The `pyeda` package complements the Python ecosystem by providing simple and eff
 ## Installation
 
 ``` bash
-$ pip install pyeda
+$ pip install pyeda31
 ```
 
 ## Usage
 
 `pyeda` can be used to verify the format of data files and perform basic exploratory data analysis as follows:
 ```python
-from pyeda.check_csv import check_csv
-from pyeda.pymissing_values_summary import missing_values_summary
-from pyeda.data_summary import get_summary_statistics
+from pyeda31.check_csv import check_csv
+from pyeda31.pymissing_values_summary import missing_values_summary
+from pyeda31.data_summary import get_summary_statistics
 ```
 #### Check if the given data file is in csv format
 ```python

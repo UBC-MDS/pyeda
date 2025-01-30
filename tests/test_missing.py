@@ -1,4 +1,4 @@
-from pyeda.pymissing_values_summary import missing_values_summary
+from pyeda31.pymissing_values_summary import missing_values_summary
 import pytest
 import pandas as pd
 
