@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyeda31"
-version = "1.2.0"
+version = "1.3.0"
 description = "A python package to support exploratory data analysis!"
 authors = ["Catherine Meng, Jessie Zhang, Zheng He"]
 license = "MIT"

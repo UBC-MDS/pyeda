@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.3.0 (2025-01-31)
+
+### Features
+
+- **badge**: Add 5 badges and coverage token
+  ([`8b57c56`](https://github.com/UBC-MDS/pyeda/commit/8b57c56570dd1c713c1b8025c19f25ec0b6032fe))
+
+
 ## v1.2.0 (2025-01-30)
 
 ### Bug Fixes
