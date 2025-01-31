@@ -1,4 +1,5 @@
 [![ci-cd](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml)
+[![codecov](https://codecov.io/gh/UBC-MDS/pyeda/graph/badge.svg?token=7fkP6T1239)](https://codecov.io/gh/UBC-MDS/pyeda)
 [![Documentation Status](https://readthedocs.org/projects/pyeda31/badge/?version=latest)](https://pyeda31.readthedocs.io/en/latest/?badge=latest)
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyeda31)
