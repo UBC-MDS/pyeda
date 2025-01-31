@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.4.0 (2025-01-31)
+
+### Features
+
+- **badge**: Add test coverage badge
+  ([`5ebdc73`](https://github.com/UBC-MDS/pyeda/commit/5ebdc73183e09a4118a0dcd2826ab261a795bda4))
+
+
 ## v1.3.0 (2025-01-31)
 
 ### Features
