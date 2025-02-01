@@ -1,6 +1,7 @@
 # pyeda31
 
-| --- | --- |
+| Category| Status |
+|---------|--------|
 | CI-CD | [![ci-cd](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml) |
 | Testing | [![codecov](https://codecov.io/gh/UBC-MDS/pyeda/graph/badge.svg?token=7fkP6T1239)](https://codecov.io/gh/UBC-MDS/pyeda) |
 | Documentation | [![Documentation Status](https://readthedocs.org/projects/pyeda31/badge/?version=latest)](https://pyeda31.readthedocs.io/en/latest/?badge=latest)|

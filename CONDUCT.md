@@ -44,7 +44,7 @@ Participants who are asked to stop any inappropriate behavior are expected to co
 ### Incident Reporting Guidelines
 If someone violates the Code of Conduct during an event or in an online space outside of organized events, we ask that you report it to the instructor(s). The current instructor(s) of DSCI 524 is Daniel Chen.
 
-For any concerns or reports, you may also reach out to the team via email at [zhangj24@student.ubc.ca].
+For any concerns or reports, you may also reach out to the team via email at zhangj24@student.ubc.ca.
 
 ## Attribution 
 - Derived from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
