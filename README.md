@@ -1,13 +1,12 @@
 # pyeda31
 
-| | |
 | --- | --- |
 | CI-CD | [![ci-cd](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/pyeda/actions/workflows/ci-cd.yml) |
 | Testing | [![codecov](https://codecov.io/gh/UBC-MDS/pyeda/graph/badge.svg?token=7fkP6T1239)](https://codecov.io/gh/UBC-MDS/pyeda) |
 | Documentation | [![Documentation Status](https://readthedocs.org/projects/pyeda31/badge/?version=latest)](https://pyeda31.readthedocs.io/en/latest/?badge=latest)|
-| Status | [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/) |
-| Package | [![PyPI - Version](https://img.shields.io/pypi/v/pyeda31)](https://pypi.org/project/pyeda31/) |
-| Supported Versions | [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyeda31)](https://pypi.org/project/pyeda31/) |
+| Repo Status | [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/) |
+| Package Version | [![PyPI - Version](https://img.shields.io/pypi/v/pyeda31)](https://pypi.org/project/pyeda31/) |
+| Python Versions | [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyeda31)](https://pypi.org/project/pyeda31/) |
 
 This python package creates an exploratory data analysis utility designed to streamline the initial stages of data exploration and statistic overview. The three core functions are file validation, handling missing values, and generating summary statistics. `pyeda31` offers users a practical toolkit for data preprocessing and exploration, enabling them to work more efficiently with CSV datasets across various projects.
 
