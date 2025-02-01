@@ -39,10 +39,12 @@ Examples of unacceptable behavior by participants at any DSCI 524 group 31 event
 
 ### Consequences of Unacceptable Behavior
 
-Participants who are asked to stop any inappropriate behavior are expected to comply immediately. This applies to any DSCI 524 group 31 events and platforms, either online or in-person. If a participant engages in behavior that violates this code of conduct, the other group member may warn the offender and or engage the DSCI 524 Instructor to investigate the Code of Conduct violation and impose appropriate sanctions.
+Participants who are asked to stop any inappropriate behavior are expected to comply immediately. This applies to any DSCI 524 Group 31 events and platforms, whether online or in person. If a participant engages in behavior that violates this Code of Conduct, group members may issue a warning to the offender or escalate the matter to the DSCI 524 Instructor for further investigation and appropriate action.
 
 ### Incident Reporting Guidelines
-If someone violates the Code of Conduct during a event or in an online space outside of organised events, we ask that you report it to the Instructor(s). The current instructor(s) of DSCI 524 is Daniel Chen. 
+If someone violates the Code of Conduct during an event or in an online space outside of organized events, we ask that you report it to the instructor(s). The current instructor(s) of DSCI 524 is Daniel Chen.
+
+For any concerns or reports, you may also reach out to the team via email at zhangj24@student.ubc.ca.
 
 ## Attribution 
 - Derived from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
