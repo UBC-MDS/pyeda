@@ -58,7 +58,8 @@ print(missing_summary)
 #### Get the data summary for either all columns or the specified columns of our dataset
 ```python
 get_summary_statistics(df)
-get_summary_statistics(df, col=["numeric", "categorical"])   
+get_summary_statistics(df, col=["numeric", "categorical"]) 
+get_summary_statistics(df, col=["numeric"], decimal = 1)  
 ```
 
 ## Contributing
