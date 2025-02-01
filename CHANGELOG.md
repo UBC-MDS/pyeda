@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v1.4.1 (2025-02-01)
+
+### Bug Fixes
+
+- **doc**: Add email to conduct and minor edits to readme
+  ([`6a8f6e3`](https://github.com/UBC-MDS/pyeda/commit/6a8f6e3509688e34967d9b6ce58509d0e6a81e89))
+
+- **doc**: Fix typos and format in readme
+  ([`8870d3a`](https://github.com/UBC-MDS/pyeda/commit/8870d3ae73e2c6ffba9fe2feb7722526900a6bc6))
+
+- **doc**: Fixed typos and grammar issues in README
+  ([`c6dcb6d`](https://github.com/UBC-MDS/pyeda/commit/c6dcb6d5aa6f83b3e032eee9dc2a60bc0ab55aba))
+
+- **doc**: Minor edits to format
+  ([`622b0c8`](https://github.com/UBC-MDS/pyeda/commit/622b0c827648243f31cc42be04b2ac6976ae7ecd))
+
+
 ## v1.4.0 (2025-01-31)
 
 ### Features
