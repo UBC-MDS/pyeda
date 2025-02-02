@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v1.5.0 (2025-02-02)
+
+### Features
+
+- **function**: Add decimal place to get_summary_statistics func
+  ([`d932bfb`](https://github.com/UBC-MDS/pyeda/commit/d932bfb0760df641c5ebe3033d75a19f1513db7c))
+
+- **function**: Edit docstring to reflect decimal place
+  ([`2af3c87`](https://github.com/UBC-MDS/pyeda/commit/2af3c8772124d50e483f71bd5fc1a07525e3d40b))
+
+
 ## v1.4.1 (2025-02-01)
 
 ### Bug Fixes
