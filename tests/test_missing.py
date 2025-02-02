@@ -8,9 +8,21 @@ def df():
     Fixture to create a sample DataFrame for testing.
     """
     data = {
-        'A': [1, 2, None, 4],
-        'B': [None, None, 3, 4],
+        'A': [1, 2, pd.NA, 4],
+        'B': [pd.NA, pd.NA, 3, 4],
         'C': [1, 2, 3, 4]
+    }
+    return pd.DataFrame(data)
+
+@pytest.fixture
+def df_no_missing():
+    """
+    Fixture to create a DataFrame with no missing values.
+    """
+    data = {
+        'A': [1, 2, 3, 4],
+        'B': [5, 6, 7, 8],
+        'C': [9, 10, 11, 12]
     }
     return pd.DataFrame(data)
 
@@ -33,3 +45,14 @@ def test_missing_values_summary(df):
 
     # Check the specific values in the Series
     assert list(result.values) == expected_values, "Values in the Series do not match the expected output."
+
+def test_no_missing_values(df_no_missing):
+    """
+    Test case where no missing values exist in the DataFrame.
+    """
+    result = missing_values_summary(df_no_missing)
+
+    # Check if the function returns an empty Series or the expected message
+    assert result.empty or result == "No missing value!", (
+        "Function should return 'No missing value!' or an empty Series when no missing values are present."
+    )
