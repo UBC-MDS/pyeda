@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.5.1 (2025-02-02)
+
+### Bug Fixes
+
+- **docs**: Improved documentation for check_csv method
+  ([`2037e7e`](https://github.com/UBC-MDS/pyeda/commit/2037e7e16b231ba29ae543f3c93ebfef3a3a09d8))
+
+
 ## v1.5.0 (2025-02-02)
 
 ### Features
