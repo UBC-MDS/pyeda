@@ -4,6 +4,7 @@ from pyeda31.data_summary import get_summary_statistics
 
 @pytest.fixture
 def sample_df():
+    """Fixture to create a sample dataframe for testing"""
     data = {
         "numeric": [1, 2, 3, 4, 5],
         "categorical": ["a", "b", "a", "a", "c"],
@@ -20,7 +21,7 @@ def test_for_all_columns(sample_df):
     assert "median" in result.index
     assert "num_unique_values" in result.index
     assert "most_frequent_value" in result.index
-    assert result.loc["mean", "numeric"] == 3
+    assert result.loc["mean", "numeric"] == round(3, 3)
     assert result.loc["most_frequent_value", "categorical"] == "a"
 
 def test_for_selected_columns(sample_df):
@@ -29,6 +30,13 @@ def test_for_selected_columns(sample_df):
 
     assert "numeric" in result.columns
     assert "categorical" in result.columns
+
+def test_mean_rounding(sample_df):
+    """Test if the mean value is rounded correctly."""
+    result = get_summary_statistics(sample_df, decimal=1)
+
+    expected_mean = round(sample_df["numeric"].mean(), 1)
+    assert result.loc["mean", "numeric"] == expected_mean
 
 def test_for_empty_dataframe():
     """Test the result of empty dataframe"""

@@ -1,6 +1,6 @@
 import pandas as pd
 
-def get_summary_statistics(df, col = None):
+def get_summary_statistics(df, col = None, decimal = 3):
     """
     Generate summary statistics for specified columns or all columns if none are provided.
 
@@ -11,9 +11,12 @@ def get_summary_statistics(df, col = None):
     ----------
     df : pd.DataFrame
         The dataframe containing the data for analysis.
-    col : list or None
+    col : list, optional
         A list of column names for which to get statistics. 
         Default value is None, the function will apply for all columns.
+    decimals : int, optional
+        The number of decimal places to round the mean value.
+        Default value is 3, the function will round the mean numerical value to 3 decimal places.
 
     Returns
     ----------
@@ -24,6 +27,8 @@ def get_summary_statistics(df, col = None):
     --------
     >>> from pyeda31.data_summary import get_summary_statistics
     >>> get_summary_statistics(df)
+    >>> get_summary_statistics(df, col=["numeric", "categorical"])
+    >>> get_summary_statistics(df, col=["numeric"], decimal = 2)
     """
     if col is None:
         col = df.columns.tolist()
@@ -36,7 +41,7 @@ def get_summary_statistics(df, col = None):
 
         if pd.api.types.is_numeric_dtype(df[column]):
             summary_stats[column] = {
-                "mean": df[column].mean(),
+                "mean": round(df[column].mean(), decimal),
                 "min": df[column].min(),
                 "max": df[column].max(),
                 "median": df[column].median(),
