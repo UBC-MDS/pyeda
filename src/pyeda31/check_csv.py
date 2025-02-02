@@ -1,7 +1,7 @@
 import pandas as pd
 
 def check_csv(file_path):
-    """Check if the given file is a CSV file by its extension.
+    """Check if the given file has a CSV file extension and whether it can be read by the pandas library.
 
     Parameters
     ----------
@@ -11,12 +11,16 @@ def check_csv(file_path):
     Returns
     -------
     bool
-        True if the file is a CSV file, False otherwise.
+        True if the file has a CSV extension and can be read by the pandas library.
+        False otherwise (e.g., incorrect file extension or read error).
 
     Examples
     --------
     >>> from pyeda31.check_csv import check_csv
     >>> check_csv("../data/raw/data.csv")
+    True
+    >>> check_csv("../data/raw/data.txt")
+    False
     """
     # Check if file extension is .csv
     if not file_path.endswith(".csv"):

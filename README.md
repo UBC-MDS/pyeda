@@ -18,7 +18,7 @@ Catherine Meng, Jessie Zhang, Zheng He
 ## Functions
 
 - **`check_csv`**  
-    Check if the given file is a CSV file by its extension.
+    Check if the given file has a CSV file extension and whether it can be read by the pandas library.
 - **`missing_value_summary`**  
     This function is to provide a summary of missing values in the dataset.
 - **`get_summary_statistics`**  
@@ -45,9 +45,9 @@ from pyeda31.data_summary import get_summary_statistics
 ```python
 data_file_path = "docs/sample_data.csv"  # path to your data file
 if not check_csv(data_file_path):
-    raise TypeError("The given file is not in CSV format. Please check your data file.")
+    raise TypeError("The given file either does not have a CSV file extension or cannot be read by the pandas library. Please check the printed error message for more details.")
 ```
-#### Check if the data file has any missing values
+#### Check if the data file has a CSV file extension and whether it can be read by the pandas library
 ```python
 df = pd.read_csv(data_file_path)
 
