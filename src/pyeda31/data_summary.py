@@ -11,7 +11,7 @@ def get_summary_statistics(df, col = None, decimal = 3):
     ----------
     df : pd.DataFrame
         The dataframe containing the data for analysis.
-    col : list or None
+    col : list, optional
         A list of column names for which to get statistics. 
         Default value is None, the function will apply for all columns.
     decimals : int, optional
