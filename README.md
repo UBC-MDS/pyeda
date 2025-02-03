@@ -55,7 +55,7 @@ missing_summary = missing_values_summary(df)
 print("Missing Values Summary:")
 print(missing_summary)
 ```
-#### Get the data summary for either all columns or the specified columns of our dataset
+#### Get the data summary for either all columns or the specified columns of our dataset (adjustable decimal precision for mean)
 ```python
 get_summary_statistics(df)
 get_summary_statistics(df, col=["numeric", "categorical"]) 
