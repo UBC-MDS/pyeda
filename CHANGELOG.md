@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.5.2 (2025-02-03)
+
+### Bug Fixes
+
+- **doc**: Added rounding for usage in README
+  ([`5b24a60`](https://github.com/UBC-MDS/pyeda/commit/5b24a60cdafa43b190a73e3f77f235a48b6d507f))
+
+
 ## v1.5.1 (2025-02-02)
 
 ### Bug Fixes
